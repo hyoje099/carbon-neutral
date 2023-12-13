@@ -1,0 +1,26 @@
+@charset "utf-8"; 
+
+/* opilsol-N17 [aElq48M66C] */
+.opilsol-N17 .content-container { padding: 8rem 0; }
+.opilsol-N17 .sub-visual { margin-bottom: 2rem; width: 100%; height: 48rem; }
+.opilsol-N17 .sub-visual img { width: 100%; height: 100%; object-fit: cover; }
+.opilsol-N17 .sub-visual .mobile-img { display: none; }
+.opilsol-N17 .textset { padding-bottom: 0; text-align: center; }
+.opilsol-N17 .textset .textset-tit { letter-spacing: var(--lt-sp); word-break: keep-all; }
+.opilsol-N17 .textset .textset-desc { padding: 0 2rem; line-height: var(--lh-h6); font-size: var(--fs-h6); font-weight: 400; color: var(--text-color6); letter-spacing: var(--lt-sp); word-break: keep-all; }
+.opilsol-N17 .textset .textset-desc.sm-width { padding: 0 18.125%; }
+.opilsol-N17 .textset .br { display: block; }
+@media (max-width: 1024px) {
+ .opilsol-N17 .textset .textset-desc.sm-width { padding: 0; }
+}
+@media (max-width: 922px) {
+ .opilsol-N17 .content-container { padding: 4rem 0; }
+ .opilsol-N17 .sub-visual { margin-bottom: 0; height: 40rem; }
+ .opilsol-N17 .textset { padding: 2rem 0.7rem; }
+}
+@media (max-width: 767px) {
+ .opilsol-N17 .textset .textset-desc.sm-width { padding: 2rem; }
+ .opilsol-N17 .textset .br { display: inline; }
+ .opilsol-N17 .sub-visual .pc-img { display: none; }
+ .opilsol-N17 .sub-visual .mobile-img { display: block; }
+}
